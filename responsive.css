@@ -2,24 +2,17 @@
 MEDIA QUERY BREAKPOINTS FOR LARGER SCREENS
 ********************************************/
 
-/*Section below under: For Tablets & Desktops 
-is the original CSS in case of troubles with coding
-for the purposes of restoring your work. Likely that 
-entire code isn't needed on here, but I'm keeping it
-intact in case of trouble. After, compare codes between
-this and main2.css, and delete what is redundant here. 
-CMR 3/18/15*/
-
 /*******************************************
 FOR LARGE CELL PHONES & LANDSCAPE MODE
 ********************************************/
 
 @media screen and (min-width: 480px) {
-	
-	
-	
+
+	body {
+	background-color: #FFF;
 }
 
+}
 /*******************************************
 FOR TABLETS & DESKTOPS
 ********************************************/
@@ -27,36 +20,20 @@ FOR TABLETS & DESKTOPS
 @media screen and (min-width: 660px) {
 	
 	body {
-		background-color: #3C0606;
-	}
-	
-	.outer {
-		height: relative;
-		width: relative;
-	}
-	
-	
+	background-color: #000;
+}
 	
 	/******** HEADER DESIGN ********/
-	.head .container {
-		background-color: white;
-		position: absolute;
-		top: 2em; 
-		left: 5%;
-		height: 4em;
-		width: 90%;
-		border-bottom: 2px solid darkslateblue;
-	}
+
 	
 	#LOGO {
-		position: absolute;
-		height: 3.5em;
+		visibility: visible;
 	}
 	
 	#EMAIL {
 		position: absolute;
 		top: .3em;
-		left: 66%;
+		left: 56%;
 		width: 3.3em;
 		padding-left:0.05em;
 	}
@@ -145,7 +122,7 @@ FOR TABLETS & DESKTOPS
 		position: absolute;
 		top: 18vw;
 		left: 25.5vw;
-		width: 4vw;
+		width: 40vw;
 	}
 	
 	.slide_show h1 {

@@ -1,3 +1,7 @@
+/*****THIS FILE IS FOR PHONE SIZE. <660 Width****** 
+******SEE BREAKPOINTS IN RESPONSIVE.CSS************
+******FOR GREATER WIDTHS******/
+
 body {
 	background-color: #3C0606;
 }
@@ -7,6 +11,9 @@ body {
 	width: relative;
 }
 
+
+
+/******** HEADER DESIGN ********/
 .head .container {
 	background-color: white;
 	position: absolute;
@@ -20,51 +27,56 @@ body {
 #LOGO {
 	position: absolute;
 	height: 3.5em;
+	top: 0.2em;
+	visibility: hidden;
 }
 
 #EMAIL {
 	position: absolute;
-	top: .3em;
-	left: 66%;
+	top: 0.3em;
+	left: 2%;
 	width: 3.3em;
 	padding-left:0.05em;
 }
 
 #ABB {
 	position: absolute;
-	top: .3em;
-	left: 72%;
+	top: 0.3em;
+	left: 20%;
 	height: 3.2em
 }
 
 #VRBO {
 	position: absolute;
-	top: .2em;
-	left: 77%;
+	top: 0.2em;
+	left: 35%;
 	height: 3.3em;
 }
 
 #FLIP {
 	position: absolute;
-	top: .1em;
-	left: 82.3%;
+	top: 0.1em;
+	left: 52%;
 	height: 3.5em;
 }
 
 #TRIP {
 	position: absolute;
-	top: .5em;
-	left: 86.5%;
+	top: 0.5em;
+	left: 65%;
 	height: 3.2em;
 }
 
 #PET {
 	position: absolute;
-	top: .2em;
-	left: 93.5%;
+	top: 0.2em;
+	left: 85%;
 	height: 3.2em;
 }
 
+
+
+/******** MENU BAR DESIGN ********/
 .nav .container {
 	background-color: goldenrod;
 	position: absolute;
@@ -74,22 +86,38 @@ body {
 	width: 90%;
 }
 
+.nav .menu-left {
+	float: left;
+	position: absolute;
+	top: -0.6em;
+	left: -2.2em;
+}
+
+.nav .menu-right {
+	text-align: right;
+	position: absolute;
+	top: -0.6em;
+	right: 0.5em;
+}
+
 .nav li {
-	display: inline;
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: 500; 
+	padding-left: .5em;
 }
 
 .nav a {
 	color: #5B1818;
-	font-size: 1.2em;
-	font-weight: 500; 
-	padding-left: 1em;
-	padding-right: .7em;
 	text-transform: uppercase;
-	position: relative;
-	top: 0.1em;
-	right: 5%;
+	text-decoration: none;
 }
 
+
+
+
+
+/******** JUMBOTRON DESIGN ********/
 .slide_show .container {
 	background-image: url('images/lochhaven.jpg');
 	background-size: 100%;
@@ -107,59 +135,72 @@ body {
 
 .slide_show img {
 	position: absolute;
-	top: 18vw;
-	left: 25.5vw;
-	width: 4vw;
+	top: 16vw;
+	left: 13vw;
+	width: 35vw;
 }
 
-.slide_show h1 {
-	color: black;
-	font-family: 'Zapfino', script;
-	font-size: 3em;
-	font-size: 5vw;
-	position: absolute;
-	left: 2em;
-	top: 4em;
-	}
 
-.slide_show p {
-	color: black;
-	font-family: 'Zapfino', script;
-	font-size: 1em;
-	font-size: 2vw;
-	position: absolute;
-	left: 10em;
-	top: 13.5em;
-	}
 	
-.rent-now .container {
+	
+/******** CONTENT DESIGN ********/
+.info-block .container {
 	position: absolute;
 	top: 42em;
 	left: 5%;
 	width: 90%;
-	height: 15em;
+	height: auto;
 	background-color: goldenrod;
 	font-family: 'Times', serif;
 }
 
-.rent-now h3 {
+.info-block h3 {
 	font-family: 'Lobster', serif;
 	font-size: 1.3em;
 	font-weight: bold;
+	text-align: center;
 }
 
-.rent-now a {
+.info-block a {
 	color: #5B1818;
+	text-decoration: none;
 	font-size: 1em;
 	font-weight: bold;
 }
 
+.info-block img {
+	width: 5em;
+	float: left;
+	padding-right: 1em;
+}
+
+.left-block {
+	padding-left: 1em;
+}
+
+.right-block {
+	padding-left: 1em;
+}
+
+
+/******** FOOTER DESIGN ********/
 .foot .container {
 	background-color: white;
 	position: absolute;
-	top: 57em; 
+	top: 70em; 
 	left: 5%;
 	height: 2em;
 	width: 90%;
 	border-top: 5px solid darkslateblue;
 }
+
+.foot p {
+	font-size: 0.75em;
+	text-align: center;
+}
+
+.foot a {
+	text-decoration: none;
+}
+
+/***************PAGES***************/

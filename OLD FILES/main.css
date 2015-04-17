@@ -7,9 +7,6 @@ body {
 	width: relative;
 }
 
-
-
-/******** HEADER DESIGN ********/
 .head .container {
 	background-color: white;
 	position: absolute;
@@ -68,9 +65,6 @@ body {
 	height: 3.2em;
 }
 
-
-
-/******** MENU BAR DESIGN ********/
 .nav .container {
 	background-color: goldenrod;
 	position: absolute;
@@ -81,23 +75,21 @@ body {
 }
 
 .nav li {
-	display: inline-block;
+	display: inline;
 }
 
 .nav a {
 	color: #5B1818;
-	text-transform: uppercase;
 	font-size: 1.2em;
 	font-weight: 500; 
-	padding: 1.05em;
+	padding-left: 1em;
+	padding-right: .7em;
+	text-transform: uppercase;
 	position: relative;
 	top: 0.1em;
+	right: 5%;
 }
 
-
-
-
-/******** JUMBOTRON DESIGN ********/
 .slide_show .container {
 	background-image: url('images/lochhaven.jpg');
 	background-size: 100%;
@@ -140,14 +132,12 @@ body {
 	top: 13.5em;
 	}
 	
-	
-/******** CONTENT DESIGN ********/
 .rent-now .container {
 	position: absolute;
 	top: 42em;
 	left: 5%;
 	width: 90%;
-	height: auto;
+	height: 15em;
 	background-color: goldenrod;
 	font-family: 'Times', serif;
 }
@@ -164,8 +154,6 @@ body {
 	font-weight: bold;
 }
 
-
-/******** FOOTER DESIGN ********/
 .foot .container {
 	background-color: white;
 	position: absolute;
@@ -175,11 +163,3 @@ body {
 	width: 90%;
 	border-top: 5px solid darkslateblue;
 }
-
-.foot p {
-	font-size: 0.75em;
-	text-align: center;
-	padding-top: 5px;
-}
-
-/***************PAGES***************/
