@@ -1,0 +1,185 @@
+body {
+	background-color: #3C0606;
+}
+
+.outer {
+	height: relative;
+	width: relative;
+}
+
+
+
+/******** HEADER DESIGN ********/
+.head .container {
+	background-color: white;
+	position: absolute;
+	top: 2em; 
+	left: 5%;
+	height: 4em;
+	width: 90%;
+	border-bottom: 2px solid darkslateblue;
+}
+
+#LOGO {
+	position: absolute;
+	height: 3.5em;
+}
+
+#EMAIL {
+	position: absolute;
+	top: .3em;
+	left: 66%;
+	width: 3.3em;
+	padding-left:0.05em;
+}
+
+#ABB {
+	position: absolute;
+	top: .3em;
+	left: 72%;
+	height: 3.2em
+}
+
+#VRBO {
+	position: absolute;
+	top: .2em;
+	left: 77%;
+	height: 3.3em;
+}
+
+#FLIP {
+	position: absolute;
+	top: .1em;
+	left: 82.3%;
+	height: 3.5em;
+}
+
+#TRIP {
+	position: absolute;
+	top: .5em;
+	left: 86.5%;
+	height: 3.2em;
+}
+
+#PET {
+	position: absolute;
+	top: .2em;
+	left: 93.5%;
+	height: 3.2em;
+}
+
+
+
+/******** MENU BAR DESIGN ********/
+.nav .container {
+	background-color: goldenrod;
+	position: absolute;
+	top: 6em;
+	left: 5%;
+	height: 2em;
+	width: 90%;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	color: #5B1818;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: 500; 
+	padding: 1.05em;
+	position: relative;
+	top: 0.1em;
+}
+
+
+
+
+/******** JUMBOTRON DESIGN ********/
+.slide_show .container {
+	background-image: url('images/lochhaven.jpg');
+	background-size: 100%;
+	moz-background-size: 100%;
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	border-top: 3px solid darkslateblue;
+	border-bottom: 4px solid darkslateblue;
+	height: 34em;
+	width: 90%;
+	position: absolute;
+	left: 5%;
+	top: 8em;
+	}
+
+.slide_show img {
+	position: absolute;
+	top: 18vw;
+	left: 25.5vw;
+	width: 4vw;
+}
+
+.slide_show h1 {
+	color: black;
+	font-family: 'Zapfino', script;
+	font-size: 3em;
+	font-size: 5vw;
+	position: absolute;
+	left: 2em;
+	top: 4em;
+	}
+
+.slide_show p {
+	color: black;
+	font-family: 'Zapfino', script;
+	font-size: 1em;
+	font-size: 2vw;
+	position: absolute;
+	left: 10em;
+	top: 13.5em;
+	}
+	
+	
+/******** CONTENT DESIGN ********/
+.rent-now .container {
+	position: absolute;
+	top: 42em;
+	left: 5%;
+	width: 90%;
+	height: auto;
+	background-color: goldenrod;
+	font-family: 'Times', serif;
+}
+
+.rent-now h3 {
+	font-family: 'Lobster', serif;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.rent-now a {
+	color: #5B1818;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+/******** FOOTER DESIGN ********/
+.foot .container {
+	background-color: white;
+	position: absolute;
+	top: 57em; 
+	left: 5%;
+	height: 2em;
+	width: 90%;
+	border-top: 5px solid darkslateblue;
+}
+
+.foot p {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 5px;
+}
+
+/***************PAGES***************/

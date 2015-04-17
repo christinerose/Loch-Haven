@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<WebEditorProject>
+    <!---->
+    <ProjectInformation>
+        <ProjectName>LochHavenProj</ProjectName>
+        <ProjectVersion>2.0</ProjectVersion>
+        <ServerInfo ServerID="-1"></ServerInfo>
+        <S-DriveURL></S-DriveURL>
+    </ProjectInformation>
+    <!---->
+    <ProjectTreeFirstLevel>
+        <Node Type="5" LinkName="">./index2.html</Node>
+        <Node Type="5" LinkName="">./main2.css</Node>
+        <Node Type="5" LinkName="">./navigation.html</Node>
+        <Node Type="5" LinkName="">./header.html</Node>
+        <Node Type="5" LinkName="">./rooms.html</Node>
+        <Node Type="5" LinkName="">./footer.html</Node>
+        <Node Type="5" LinkName="">./responsive.css</Node>
+    </ProjectTreeFirstLevel>
+    <!---->
+    <ShowedFiles>
+        <ShowedFileEditor1 FirstVisibleLine="54" CursorPosition="1948">./index2.html</ShowedFileEditor1>
+        <ShowedFileEditor2 FirstVisibleLine="35" CursorPosition="1420">./main2.css</ShowedFileEditor2>
+    </ShowedFiles>
+    <!---->
+</WebEditorProject>
