@@ -6,23 +6,48 @@ MEDIA QUERY BREAKPOINTS FOR LARGER SCREENS
 FOR LARGE CELL PHONES & LANDSCAPE MODE
 ********************************************/
 
-@media screen and (min-width: 480px) {
-
-	body {
-	background-color: #FFF;
+@media screen and (min-width: 550px) {
+      
+    	/******** MENU BAR DESIGN ********/
+	.nav .container {
+    height: 1.5em;
+	}
+	
+	.nav .menu-left {
+	float: left;
+	position: absolute;
+	top: -0.6em;
+	left: -2.2em;
 }
 
+    .nav .menu-right {
+	text-align: right;
+	position: absolute;
+	top: -0.6em;
+	right: 0.5em;
+    visibility: visible;
 }
+
+    .nav li {
+	font-size: 0.8em;
+}
+
+    
+    
+    
+}
+
 /*******************************************
 FOR TABLETS & DESKTOPS
 ********************************************/
 
 @media screen and (min-width: 660px) {
-	
-	body {
-	background-color: #000;
-}
-	
+    
+  body {
+    background-color: green;   
+  }
+    
+
 	/******** HEADER DESIGN ********/
 
 	
@@ -85,20 +110,32 @@ FOR TABLETS & DESKTOPS
 		width: 90%;
 	}
 	
-	.nav li {
-		display: inline-block;
-	}
-	
-	.nav a {
-		color: #5B1818;
-		text-transform: uppercase;
-		font-size: 1.2em;
-		font-weight: 500; 
-		padding: 1.05em;
-		position: relative;
-		top: 0.1em;
-	}
-	
+	.nav .menu-left {
+	float: left;
+	position: absolute;
+	top: -0.6em;
+	left: -2.2em;
+}
+
+    .nav .menu-right {
+	text-align: right;
+	position: absolute;
+	top: -0.6em;
+	right: 0.5em;
+}
+
+    .nav li {
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: 500; 
+	padding-left: .5em;
+}
+
+    .nav a {
+    color: #5B1818;
+	text-transform: uppercase;
+	text-decoration: none;
+}
 	
 	
 	
