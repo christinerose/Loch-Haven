@@ -25,9 +25,6 @@ body {
 }
 
 #LOGO {
-	position: absolute;
-	height: 3.5em;
-	top: 0.2em;
 	visibility: hidden;
 }
 
@@ -99,9 +96,9 @@ body {
 
 .nav li {
 	display: inline-block;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-weight: 500; 
-    padding-left: 1vw;
+    padding-left: .4em
 }
 
 .nav a {
@@ -190,7 +187,7 @@ body {
 .foot .container {
 	background-color: white;
 	position: absolute;
-	top: 55em; 
+	top: 53em; 
 	left: 5%;
 	height: 1.5em;
 	width: 90%;
