@@ -130,7 +130,7 @@ FOR TABLETS & DESKTOPS
 		background-image: url('images/lochhaven.jpg');
 		background-size: 100%;
 		moz-background-size: 100%;
-		background-position: 0% 0%;
+		background-position: center;
 		background-repeat: no-repeat;
 		border-top: 3px solid darkslateblue;
 		border-bottom: 4px solid darkslateblue;
@@ -143,8 +143,8 @@ FOR TABLETS & DESKTOPS
 	
 	.slide_show img {
 		position: absolute;
-		top: 18vw;
-		left: 25.5vw;
+		top: 8vw;
+		left: 26vw;
 		width: 4vw;
 	}
 	
@@ -153,9 +153,9 @@ FOR TABLETS & DESKTOPS
 		font-family: 'Zapfino', script;
 		font-size: 3em;
 		font-size: 5vw;
-		position: absolute;
+		position: relative;
 		left: 2em;
-		top: 4em;
+		top: 2em;
 		}
 	
 	.slide_show p {
@@ -165,7 +165,7 @@ FOR TABLETS & DESKTOPS
 		font-size: 2vw;
 		position: absolute;
 		left: 10em;
-		top: 13.5em;
+		top: 9em;
 		}
 		
 		
